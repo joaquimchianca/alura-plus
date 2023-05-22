@@ -1,0 +1,29 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+}
+
+body { 
+    /* funcao var que passa a variavel */
+    background-color: var(--cor-de-fundo); 
+    color: var(--branco-principal);
+}
+
+* {
+    /* tirando margin e padding automaticos da pagina */
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url(assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    /* vai detectar o tamanho da tela e vai preencher a altura */
+    height: 100vh;
+}
