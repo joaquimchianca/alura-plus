@@ -1,5 +1,7 @@
 # alura-plus
 
+<img src="assets/alura-plus-tela.png" />
+
 ## Descrição 📝 
 Projeto desenvolvido no curso "HTML e CSS: praticando HTML/CSS" na plataforma Alura Cursos. O projeto consiste numa landing page simples, desenvolvida em HTML e CSS puro.
 
