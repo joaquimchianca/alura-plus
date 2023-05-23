@@ -127,7 +127,7 @@ body {
 
 .rodape {
     text-align: center;
-    margin: 7rem 0;
+    margin: 5rem 0;
 }
 
 .rodape > img {
@@ -162,4 +162,37 @@ body {
 
 .rodape p:first-child {
     margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        display:block;
+        background-image: none;
+    }
+
+    .container__img {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 2em 2em;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 68vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .lista__links {
+        display: block;
+    }
+
 }
